@@ -1,0 +1,348 @@
+[Fathima Azeez] 19:07:54
+Hi everyone, my name is Fathima Aziz.
+
+[Fathima Azeez] 19:07:56
+Welcome to the session on machine learning.
+
+[Fathima Azeez] 19:07:59
+Today, here I'm going to discuss about dictionary algorithm in machine learning.
+
+[Fathima Azeez] 19:08:13
+So here's the agenda for the discussion.
+
+[Fathima Azeez] 19:08:15
+It involves introduction. How do dichen trees work? Understanding the data set, building the model
+
+[Fathima Azeez] 19:08:21
+visualizing, decision tree and conclusion.
+
+[Fathima Azeez] 19:08:24
+So to start with, here's the introduction. What is addition tree?
+
+[Fathima Azeez] 19:08:31
+These are common energy in everyday life?
+
+[Fathima Azeez] 19:08:33
+shaped by a combination of roots, trunk, branches and leaves, trees often symbolizes growth.
+
+[Fathima Azeez] 19:08:38
+Dishantries are a popular and powerful tool used in various fields such as machine learning, data mining, and statistics.
+
+[Fathima Azeez] 19:08:44
+It is a versatile interpretable algorithm which is used for predictive modeling.
+
+[Fathima Azeez] 19:08:48
+And this dysentery falls under the category of supervised learning.
+
+[Fathima Azeez] 19:08:53
+that is used for both classification and regression modeling. Regression is a method which is used for predictive modeling so that these trees are used to either classify data or predict that what will come next.
+
+[Fathima Azeez] 19:09:04
+And it basically structures decisions based on input data, making it suitable for both classification and regression task.
+
+[Fathima Azeez] 19:09:11
+So next is a structure of addition tree.
+
+[Fathima Azeez] 19:09:14
+addition three consists of four different paths. The first one is root nought second
+
+[Fathima Azeez] 19:09:19
+Third one are the branches and the fourth one are the leaf knots.
+
+[Fathima Azeez] 19:09:25
+trees work. The process of creating a nation tree involves three different steps. The first one is selecting the best attribute.
+
+[Fathima Azeez] 19:09:32
+It is actually done by using a metric like guinea impurity, entropy or information gain.
+
+[Fathima Azeez] 19:09:37
+the best attribute to split the data among these three will be selected.
+
+[Fathima Azeez] 19:09:42
+And the second one is splitting the data set.
+
+[Fathima Azeez] 19:09:45
+After selecting the useful or the better attribute, the data set is then split into subsets based on the selector attribute.
+
+[Fathima Azeez] 19:09:52
+The third one is repeating this process. The above two steps or this call process repeated recursively for each subset.
+
+[Fathima Azeez] 19:09:59
+creating a new internal nod or leaf nod until a stopping criteria is met.
+
+[Fathima Azeez] 19:10:05
+So information game.
+
+[Fathima Azeez] 19:10:07
+we have tall or we have discussed that there are three different attributes. The first one is information game.
+
+[Fathima Azeez] 19:10:13
+So when we use a nod, in addition to the partition the training instances into smaller subsets.
+
+[Fathima Azeez] 19:10:17
+the entropy changes and this change in entropy is mentioned as information gain.
+
+[Fathima Azeez] 19:10:23
+So here we can see the equation, the mathematical equation to calculate the information gain
+
+[Fathima Azeez] 19:10:28
+And I've told you, entropy is a measure of uncertainty of a random variable which characterizes the impurity of an arbitrary collection of examples
+
+[Fathima Azeez] 19:10:36
+So here is an example for you to visualize like this set consists of total instances eight
+
+[Fathima Azeez] 19:10:43
+instance of B, that is the total number of occurrences of B is 5 and that of A is three.
+
+[Fathima Azeez] 19:10:48
+So we will calculate the entropy using this equation.
+
+[Fathima Azeez] 19:10:51
+Which is a logarithmic equation.
+
+[Fathima Azeez] 19:10:54
+So next is the Guinea Index. We can say that Guinea index is a metric which is used to measure how often a randomly chosen element
+
+[Fathima Azeez] 19:11:03
+would be incorrectly identified. A lower guinea index indicates a more homogeneous or pure distribution, while a higher Guinea index indicates a more heterogeneous or impure
+
+[Fathima Azeez] 19:11:13
+distributions. So here is the formula for Guinea index. It is given by Guinea equals it is represented or in order with the capital letter D.
+
+[Fathima Azeez] 19:11:22
+which is equal to one minus the whole sum of PI squared. PI is a proportion of samples belonging to class I.
+
+[Fathima Azeez] 19:11:29
+So this guinea can range from 0 to 0.5, where zero indicates a pure set.
+
+[Fathima Azeez] 19:11:34
+and 0.5 indicates a maximally impure sign.
+
+[Fathima Azeez] 19:11:38
+So next is the understanding of the data set. The data set which we are using
+
+[Fathima Azeez] 19:11:44
+algorithm using the shoulder trays iris data set.
+
+[Fathima Azeez] 19:11:47
+So the major things about this data set is it contains about 150 samples of iris flowers.
+
+[Fathima Azeez] 19:11:53
+from three different species, Cetaza, versicolor, and virginica.
+
+[Fathima Azeez] 19:11:57
+And the main features are each sample has four numerical features in centimeter, sepal length, sepal width.
+
+[Fathima Azeez] 19:12:03
+that's a little bit length and that's a little bit
+
+[Fathima Azeez] 19:12:06
+And the target variable which we are using here is species.
+
+[Fathima Azeez] 19:12:09
+So now let's have a look at the code.
+
+[Fathima Azeez] 19:12:18
+So here is a code for addition to algorithm. First one, we are doing the basic step that is importing the necessary libraries.
+
+[Fathima Azeez] 19:12:25
+then we are allotting the IRIS data set using the LOD IRIS
+
+[Fathima Azeez] 19:12:29
+function as we have told, this data set is the impulse data set in motion which is used for all machine learning purposes
+
+[Fathima Azeez] 19:12:35
+The next thing is we are creating a data frame using this data set and then we can see the data here.
+
+[Fathima Azeez] 19:12:41
+just the first five data.
+
+[Fathima Azeez] 19:12:44
+And then we are trending the feature names of it.
+
+[Fathima Azeez] 19:12:48
+we are told that the facial limbs are petal length and petal width.
+
+[Fathima Azeez] 19:12:53
+And then we print the shape of the data set as well.
+
+[Fathima Azeez] 19:12:56
+data frame as well sorry
+
+[Fathima Azeez] 19:12:58
+And then next thing we are printing the feature
+
+[Fathima Azeez] 19:13:02
+and the target labels for this particular iris data set and the data frame.
+
+[Fathima Azeez] 19:13:09
+Next thing is we are importing the train test split, which is used for like
+
+[Fathima Azeez] 19:13:15
+splitting the data into training and testing data
+
+[Fathima Azeez] 19:13:19
+which is used for which is a major step in this
+
+[Fathima Azeez] 19:13:23
+process. So we are splitting the data set
+
+[Fathima Azeez] 19:13:25
+then using like we are importing this from escalon for this purpose
+
+[Fathima Azeez] 19:13:30
+So we are setting the random state as 100, then test size equal to 0.3. Test size equal to 0.3 means 30% of the data
+
+[Fathima Azeez] 19:13:38
+which we have will be allocator for testing and the remaining 70% of the data will be used for training purpose.
+
+[Fathima Azeez] 19:13:44
+So next thing is dictionary classifier is the class we are importing from skln.3.
+
+[Fathima Azeez] 19:13:50
+And then the next step is we are making predictions. First, we have a sample data, which is a list of list containing all the
+
+[Fathima Azeez] 19:13:57
+a few data, which belongs to all features
+
+[Fathima Azeez] 19:14:01
+then we are predicting for the sample and what we have got as the output is two you know zero
+
+[Fathima Azeez] 19:14:06
+indicates what the first
+
+[Fathima Azeez] 19:14:11
+species that is Cytosa and the second one indicates a versicolor and the third one indicates versionica
+
+[Fathima Azeez] 19:14:17
+So here we got the predicted value or this thing as two
+
+[Fathima Azeez] 19:14:23
+So it indicates what we can say it indicates version.
+
+[Fathima Azeez] 19:14:29
+So after training we can have leaf nodes and internal nodes. So the story structure is built where we have all these nodes.
+
+[Fathima Azeez] 19:14:38
+Then what we does next is
+
+[Fathima Azeez] 19:14:40
+we have the accuracy score. So accuracy is 0.95. That means 95% of the
+
+[Fathima Azeez] 19:14:46
+things we are doing here is mostly accurate or just true to the
+
+[Fathima Azeez] 19:14:50
+basic data we have.
+
+[Fathima Azeez] 19:14:51
+Next, we have classification report.
+
+[Fathima Azeez] 19:14:57
+So we have the classification report.
+
+[Fathima Azeez] 19:15:00
+So this thing, it calculates and displays the classification code which provides a detailed performance metrics for each class in the classification problem.
+
+[Fathima Azeez] 19:15:09
+like you can see here it has precision recall F1 score and then support.
+
+[Fathima Azeez] 19:15:14
+Next, we are making the confusion metrics and heat map.
+
+[Fathima Azeez] 19:15:18
+So for all these we have, we'll get different output from this heat map and the confusion metrics first.
+
+[Fathima Azeez] 19:15:26
+So it compares the two labels. That is why test the predicted labels of white bread.
+
+[Fathima Azeez] 19:15:31
+It basically create metrics we know.
+
+[Fathima Azeez] 19:15:34
+So here's the conclusion from the confusion metrics as you can see here.
+
+[Fathima Azeez] 19:15:39
+Next thing is additional tree visualization. So for this, this is a code which visualizes the distant tree generated by our classifier that is addition tree classified DPC using the macro clip.
+
+[Fathima Azeez] 19:15:51
+So, and this is the dictionary we are getting from this
+
+[Fathima Azeez] 19:15:54
+So we'll discuss about this in the PPT again. We're going back to the PPT now.
+
+[Fathima Azeez] 19:16:02
+So here's the addition tree we have.
+
+[Fathima Azeez] 19:16:06
+So the root knot analysis, we can say the tree begins by evaluating the most significant feature that is pattern length.
+
+[Fathima Azeez] 19:16:11
+in centimeter, which serves as a root knot
+
+[Fathima Azeez] 19:16:14
+So this feature is basically really crucial in distinguishing Satosa from other two classes because Cetosa has distinctly smaller pattern line.
+
+[Fathima Azeez] 19:16:20
+So all the 34 samples belongs to our perfectly classified because the pure naught, it is a pure naught because Guinea equals zero.
+
+[Fathima Azeez] 19:16:28
+And subsequent splits for verzicler and virginica we know for the non-strousal classes, the trees uses petal width as the next key feature the feature
+
+[Fathima Azeez] 19:16:37
+divides the data further, improving class separability.
+
+[Fathima Azeez] 19:16:42
+And purity of the leaf nodes, we can say the tree actually has pure nodes were going to equal zero at multiple leaf nodes. We can see here in orange
+
+[Fathima Azeez] 19:16:49
+and then here's here
+
+[Fathima Azeez] 19:16:51
+in the bottom, for all the boxes, it is Guinea equals zero
+
+[Fathima Azeez] 19:16:54
+So that's why it has stopped there. The stopping criteria is met. So it is stopped there because
+
+[Fathima Azeez] 19:17:01
+we have got the sample as pure.
+
+[Fathima Azeez] 19:17:03
+So that is how the decision tree works.
+
+[Fathima Azeez] 19:17:05
+And we can also say that
+
+[Fathima Azeez] 19:17:09
+there are like a petal width or which are less than 1.65 you can see versicular
+
+[Fathima Azeez] 19:17:15
+So on further splits based on the petal length and like similarly the dimensions
+
+[Fathima Azeez] 19:17:19
+So low guinea values at intermediate nodes we can see there is 0.136 here in the green here. You can see 0.136. It's significantly the smaller value.
+
+[Fathima Azeez] 19:17:30
+And then it demonstrates that the splits are highly effective in reducing the class overlap, ensuring reliable predictions.
+
+[Fathima Azeez] 19:17:37
+So that's it about the visualizing the addition free.
+
+[Fathima Azeez] 19:17:40
+At last, we have come to the conclusion. So we can say that addition trees are powerful and interpretable models that can be used for both classification and regression tasks.
+
+[Fathima Azeez] 19:17:49
+the dysentery effectively classifies the IRIS data set, which is by achieving pure nause that is Guinea equals zero in many cases as we have seen just now.
+
+[Fathima Azeez] 19:17:57
+And this visualization highlights the hierarchical decision-making process with simple conditions leading to accurate classifications.
+
+[Fathima Azeez] 19:18:04
+So that's all about dictionary algorithm in machine learning.
+
+[Fathima Azeez] 19:18:08
+I hope this session was really useful.
+
+[Fathima Azeez] 19:18:09
+Thank you so much for listening. Thank you.
+
